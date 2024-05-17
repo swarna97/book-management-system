@@ -18,3 +18,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Vulture
       run: ./run_vulture.sh
+    - name: Run Deadcode
+      run: ./run_deadcode.sh
