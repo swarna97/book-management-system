@@ -1,1 +1,1 @@
-vulture src/ --min-confidence 70
+vulture . --min-confidence 70
